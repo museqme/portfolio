@@ -1,10 +1,30 @@
 header {
   z-index: 10;
-  background-color: #333333;
+  background-color: #333;
   display: flex;
 	flex-wrap: wrap;
   padding-top: 2em;
   padding: 2em;
   top: 0;
   width: 100%
+}
+.list {
+  font-size = 5em;
+  float = right;
+  color: #fff;
+}
+@media (min-width: 800px) {
+  nav i.fa.fa-bars{
+  display: none;
+
+ }
+}
+@media (max-width: 800px) {
+  .main-nav ul {
+    display: none;
+    padding: 1px;
+    color: #fff;
+    clear: both;
+
+  }
 }

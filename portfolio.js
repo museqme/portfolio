@@ -19,3 +19,12 @@ new Projects('PROLivin','UX', 2017, '48 hours');
 new Projects('8Flat Frequency Radio','Logo', 2015, '48 hours');
 new Projects('Tectus Construction','Logo', 2016, '48 hours');
 new Projects('KPSU','Logo', 2016, '48 hours');
+
+$(function() {
+  $('.fa-bars').on('click',function(e) {
+    e.preventDefault();
+    $('.list').slideToggle();
+  });
+
+  $('#home').css('display', 'block');
+});
