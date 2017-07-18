@@ -6,15 +6,6 @@ $(document).ready(function() {
       e.preventDefault();
       $('.list').slideToggle();
     });
-    // show and hide projects
-    $('#articles').hide();
-    $('.showpro').click(function() {
-      if ($('#articles').is(":hidden")) {
-        $('#articles').slideDown("slow");
-      } else {
-        $('#articles').hide();
-      }
-    });
 
     $('#aboutMe').hide();
     $('.aboutMe').click(function() {
@@ -23,6 +14,15 @@ $(document).ready(function() {
       } else {
         $('#aboutMe').hide();
         $('#game').hide();
+      }
+    });
+    // show and hide projects
+    $('#articles').hide();
+    $('.showpro').click(function() {
+      if ($('#articles').is(":hidden")) {
+        $('#articles').slideDown("slow");
+      } else {
+        $('#articles').hide();
       }
     });
   });
