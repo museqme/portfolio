@@ -6,7 +6,31 @@ body {
   text-align: center;
   margin: auto;
   color: 	#ffffff;
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Francois One', sans-serif;
+  letter-spacing: .5em;
+  text-transform: uppercase;
+}
+button {
+  font-size: 1.5em;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 2em;
+  width: 60%
+
+}
+h1 {
+  text-align: left;
+  font-size: 1em;
+  letter-spacing: 1em;
+}
+h4 {
+  letter-spacing: .5em;
+}
+.project {
+  margin: 2em;
+}
+h2, p {
+  font-size: 1.3em;
 }
 footer{
   background-color: #;
@@ -24,7 +48,7 @@ footer{
 @media (min-width:875px) {
 
   nav i.fa.fa-bars{
-  /*display:none;*/
+
  }
 }
 
@@ -33,6 +57,7 @@ footer{
     display: none;
     padding: 1px;
     clear: both;
+
   }
 }
 #ham{
@@ -40,4 +65,7 @@ footer{
 }
 .project{
   display: inline-block;
+}
+.container {
+  padding-bottom: 2em;
 }
