@@ -59,7 +59,7 @@ footer{
 }
 
 @media (max-width: 875px) {
-  .main-nav ul {
+  .main-nav ul body {
     display: none;
     padding: 1px;
     clear: both;
