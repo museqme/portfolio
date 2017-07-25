@@ -38,24 +38,24 @@ $(document).ready(function() {
 
 
   // Constructor function
-  Article.fetchAll = function() {
-  if (localStorage.rawData) {
-    console.log('push');
-
-    Article.loadAll(JSON.parse(localStorage.rawData)); //DONE: What do we pass in to loadAll()?
-    //DONE: What method do we call to render the index page?
-    articleView.initIndexPage();
-  } else {
-    $.getJSON("rawData.json")
-    .then(
-      function(data) {
-        localStorage.setItem('rawData', JSON.stringify(data));
-        Article.loadAll(data);
-        articleView.initIndexPage();
-      }, function(error) {
-        console.log(err,'errors')
-      })
-      Article.fetchAll();
+  // Article.fetchAll = function() {
+  // if (localStorage.rawData) {
+  //   console.log('push');
+  //
+  //   Article.loadAll(JSON.parse(localStorage.rawData)); //DONE: What do we pass in to loadAll()?
+  //   //DONE: What method do we call to render the index page?
+  //   articleView.initIndexPage();
+  // } else {
+  //   $.getJSON("rawData.json")
+  //   .then(
+  //     function(data) {
+  //       localStorage.setItem('rawData', JSON.stringify(data));
+  //       Article.loadAll(data);
+  //       articleView.initIndexPage();
+  //     }, function(error) {
+  //       console.log(err,'errors')
+  //     })
+  //     Article.fetchAll();
 
   var projects = [];
 
