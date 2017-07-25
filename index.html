@@ -40,6 +40,19 @@
   <div class="container" class="header" style="margin-top: 2%">
     <header>
       <!-- columns should be the immediate child of a .row -->
+class06
+    <div class="row">
+    <!-- <div class="one column"> -->
+    <div class="eleven columns">
+      <nav class="main-nav">
+      <i id="ham" class="fa fa-bars" aria-hidden="true"></i>
+          <ul class="list">
+              <li><a href="index.html" target="_blank" ><i class="fa fa-home" aria-hidden="true"></i></a></li>
+              <li><a href="#" target="_blank" ><i class="fa fa-address-book" aria-hidden="true"></i></a></li>
+              <li><a href="https://github.com/museqme?tab=overview&from=2017-03-27" target="_blank" > <i class="fa   fa-github-square" aria-hidden="true"></i></a></li>
+              <li><a href="http://twitter.com" target="_blank" > <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/thecodeofcam/" target="_blank">
+
       <div class="row">
         <!-- <div class="one column"> -->
         <div class="eleven columns">
@@ -51,7 +64,7 @@
               <li><a href="#" target="_blank"><i class="fa fa-address-book" aria-hidden="true"></i></a></li>
               <li><a href="http://github.com" target="_blank"> <i class="fa   fa-github-square" aria-hidden="true"></i></a></li>
               <li><a href="http://twitter.com" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-              <li><a href="http://linkedin.com" target="_blank">
+
               <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
             </ul>
           </nav>
@@ -106,9 +119,15 @@
         <script id="myprojectsList-template" type="text/x-handlebars-template">
           <li class="project">
             <h2> {{title}}</h2>
+
+            <img src="{{image}}">
+            <h2>{{category}}</h2>
+            <h3> {{complatedOn}}<h3>
+
       <img src="{{image}}">
       <h2>{{category}}</h2>
       <h3> {{complatedOn}}<h3>
+
             </li>
           </script>
         </div></div></div>

@@ -10,6 +10,9 @@ body {
   letter-spacing: .5em;
   text-transform: uppercase;
 }
+img {
+  padding: 2em;
+}
 button {
   font-size: 1.5em;
   margin: 0 auto;
@@ -22,15 +25,20 @@ h3{
   color: white;
 }
 h1 {
-  text-align: left;
-  font-size: 1em;
+  text-align: center;
+  font-size: 3em;
   letter-spacing: 1em;
 }
 h4 {
   letter-spacing: .5em;
+  text-align: center;
 }
 #blog{
+  line-height: 2.5em;
+  text-align: center;
   color: #FFEB00
+
+
 }
 .project {
   margin: 2em;
