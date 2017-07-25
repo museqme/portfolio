@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 
   <!-- Basic Page Needs
@@ -20,24 +21,26 @@
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link rel="stylesheet" href="CSS/normalize.css"/>
-  <link rel="stylesheet" href="CSS/skeleton.css"/>
-  <link rel="stylesheet" href="CSS/base.css"/>
-  <link rel="stylesheet" href="CSS/layout.css"/>
-  <link rel="stylesheet" href="CSS/module.css"/>
-  <link rel="stylesheet" href="Vendors/font-awesome-4.7.0/css/font-awesome.min.css"/>
+  <link rel="stylesheet" href="CSS/normalize.css" />
+  <link rel="stylesheet" href="CSS/skeleton.css" />
+  <link rel="stylesheet" href="CSS/base.css" />
+  <link rel="stylesheet" href="CSS/layout.css" />
+  <link rel="stylesheet" href="CSS/module.css" />
+  <link rel="stylesheet" href="Vendors/font-awesome-4.7.0/css/font-awesome.min.css" />
   <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src = "https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.min.js">
   </script>
-  <script type="text/javascript" href="blueberry.css"/></script>
+  <script type="text/javascript" href="blueberry.css" /></script>
 
 
 </head>
+
 <body>
-    <div class="container" class="header" style="margin-top: 2%">
+  <div class="container" class="header" style="margin-top: 2%">
     <header>
       <!-- columns should be the immediate child of a .row -->
+class06
     <div class="row">
     <!-- <div class="one column"> -->
     <div class="eleven columns">
@@ -49,14 +52,29 @@
               <li><a href="https://github.com/museqme?tab=overview&from=2017-03-27" target="_blank" > <i class="fa   fa-github-square" aria-hidden="true"></i></a></li>
               <li><a href="http://twitter.com" target="_blank" > <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
               <li><a href="https://www.linkedin.com/in/thecodeofcam/" target="_blank">
+
+      <div class="row">
+        <!-- <div class="one column"> -->
+        <div class="eleven columns">
+          <nav class="main-nav">
+            <!-- fix links so they navigate to right page -->
+            <i id="ham" class="fa fa-bars" aria-hidden="true"></i>
+            <ul class="list">
+              <li><a href="index.html" target="_blank"><i class="fa fa-home" aria-hidden="true"></i></a></li>
+              <li><a href="#" target="_blank"><i class="fa fa-address-book" aria-hidden="true"></i></a></li>
+              <li><a href="http://github.com" target="_blank"> <i class="fa   fa-github-square" aria-hidden="true"></i></a></li>
+              <li><a href="http://twitter.com" target="_blank"> <i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+
               <i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-          </ul>
-    </nav>
-  </div></div>
-</header>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
   </div>
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- nice background -->
   <div class="container">
     <h1>.Cameron.Pam</h1>
     <div class="row">
@@ -65,42 +83,50 @@
       </div>
     </div>
   </div>
-<div class="container">
-  <div class="row">
-   <div class="three column" style="margin-top: 1%">
-  <button class="aboutMe" type="button" name="button">Skills</button>
   <div class="container">
     <div class="row">
-      <div class="eleven column">
-        <div id="aboutMe">
-          <img src="images/logo.png" alt="">
-          <h4>Wire-Framing  <br><br> User Experience <br><br> Software Development <br><br> logo design
+      <div class="three column" style="margin-top: 1%">
+        <button class="aboutMe" type="button" name="button">Skills</button>
+        <div class="container">
+          <div class="row">
+            <div class="eleven column">
+              <div id="aboutMe">
+                <img src="images/logo.png" alt="">
+                <h4>Wire-Framing  <br><br> User Experience <br><br> Software Development <br><br> logo design
           </h4>
+              </div>
+            </div>
+          </div>
         </div>
+        <button class="game" type="button" name="button">Blogs</button>
+        <div class="container">
+          <div class="row">
+            <div class="eleven column">
+              <div id="game">
+                <h4 id="blog">My journey through Codefellows has been a positive experience. At this point I feel I am more front-end design, then backend. I am still excited to learn javascript and possiby python. </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="showpro" type="button" name="button">Projects</button>
       </div>
     </div>
   </div>
-  <button class="game" type="button" name="button">Blogs</button>
-  <div class="container">
-    <div class="row">
-      <div class="eleven column">
-        <div id="game">
-          <h4 id="blog">My journey through Codefellows has been a positive experience. At this point I feel I am more front-end design, then backend. I am still excited to learn javascript and possiby python. </h4>
-        </div>
-      </div>
-    </div>
-  </div>
-  <button class="showpro" type="button" name="button">Projects</button>
-  </div></div></div>
   <div class="row">
-    <div class ="twelve columns"><h2>
+    <div class="twelve columns">
+      <h2>
       <div id="articles">
         <script id="myprojectsList-template" type="text/x-handlebars-template">
           <li class="project">
             <h2> {{title}}</h2>
+
             <img src="{{image}}">
             <h2>{{category}}</h2>
             <h3> {{complatedOn}}<h3>
+
+      <img src="{{image}}">
+      <h2>{{category}}</h2>
+      <h3> {{complatedOn}}<h3>
 
             </li>
           </script>

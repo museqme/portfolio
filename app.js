@@ -1,4 +1,5 @@
 // 'use strict';
+// why do you have your nav links going somewhere instead of using this jquery
 $(document).ready(function() {
   // hamburger menu
   $(function() {
@@ -58,7 +59,7 @@ $(document).ready(function() {
   //     Article.fetchAll();
 
   var projects = [];
-
+//you can change this to be more DRY
   function Project(rawDataObj) {
     this.title = rawDataObj.title;
     this.projectUrl = rawDataObj.projectUrl;
